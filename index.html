@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Космічна Турагенція</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    color:white;
+    background:
+    radial-gradient(circle at top, #1e3c72, #0a0a0a 60%);
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(0,0,0,0.85);
+    padding:15px;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#4fc3f7;
+}
+
+header,
+section,
+footer{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+h2{
+    font-size:3rem;
+    margin-bottom:20px;
+    color:#4fc3f7;
+}
+
+p{
+    max-width:800px;
+    line-height:1.8;
+    font-size:1.2rem;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    padding:20px;
+    margin:15px;
+    border-radius:15px;
+    max-width:600px;
+    backdrop-filter:blur(5px);
+}
+
+footer{
+    min-height:50vh;
+    background:rgba(0,0,0,0.7);
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#tours">Маршрути</a></li>
+        <li><a href="#contact">Контакти</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>🚀 Космічна Турагенція</h1>
+    <p>Відкрийте для себе найзахопливіші подорожі за межами Землі.</p>
+</header>
+
+<section id="about">
+    <h2>Про нас</h2>
+    <p>
+        Космічна Турагенція — це компанія майбутнього, яка організовує
+        туристичні польоти до планет Сонячної системи, космічних станцій
+        та далеких галактик. Ми гарантуємо безпечні та незабутні пригоди
+        серед зірок.
+    </p>
+</section>
+
+<section id="tours">
+    <h2>Маршрути</h2>
+
+    <div class="card">
+        <h3>🌕 Місячний експрес</h3>
+        <p>3-денна подорож до поверхні Місяця з екскурсією по кратерах.</p>
+    </div>
+
+    <div class="card">
+        <h3>🔴 Марсіанська експедиція</h3>
+        <p>Тижневий тур на Марс із відвідуванням перших людських колоній.</p>
+    </div>
+
+    <div class="card">
+        <h3>🪐 Кільця Сатурна</h3>
+        <p>Преміум-круїз навколо найкрасивішої планети Сонячної системи.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Контакти</h2>
+    <p>
+        📧 Email: space@agency.com<br><br>
+        📞 Телефон: +380 00 000 00 00<br><br>
+        🌍 Адреса: Космопорт «Майбутнє», Земля
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Космічна Турагенція. Усі права захищено.</p>
+</footer>
+
+</body>
+</html>
